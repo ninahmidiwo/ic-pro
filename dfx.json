@@ -1,0 +1,35 @@
+{
+  "canisters": {
+    "ic_pro_backend": {
+      "main": "src/ic_pro_backend/main.mo",
+      "type": "motoko"
+    },
+    "ic_pro_frontend": {
+      "dependencies": [
+        "ic_pro_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/ic_pro_frontend/src/index.html"
+      },
+      "source": [
+        "src/ic_pro_frontend/assets",
+        "dist/ic_pro_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "dfx": "0.11.2",
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
