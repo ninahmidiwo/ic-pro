@@ -4,7 +4,7 @@ document.querySelector("form").addEventListener("submit", async (e) => {
   e.preventDefault();
   const button = e.target.querySelector("button");
 
-  const name = document.getElementById("name").value.toString();
+  const name = document.getElementById("userName").value.toString();
 
   button.setAttribute("disabled", true);
 
@@ -13,7 +13,7 @@ document.querySelector("form").addEventListener("submit", async (e) => {
 
   button.removeAttribute("disabled");
 
-  document.getElementById("greeting").innerText = greeting;
+  document.getElementById("profile").innerText = greeting;
 
   return false;
 });

@@ -4,6 +4,30 @@
       "main": "src/ic_pro_backend/main.mo",
       "type": "motoko"
     },
+    "profiles": {
+      "main": "src/ic_pro_backend/profiles/main.mo",
+      "type": "motoko"
+    },
+    "topics": {
+      "main": "src/ic_pro_backend/topics/main.mo",
+      "type": "motoko"
+    },
+    "questions": {
+      "main": "src/ic_pro_backend/questions/main.mo",
+      "type": "motoko"
+    },
+    "quizzes": {
+      "main": "src/ic_pro_backend/quizzes/main.mo",
+      "type": "motoko"
+    },
+    "pro_rankings": {
+      "main": "src/ic_pro_backend/pro_rankings/main.mo",
+      "type": "motoko"
+    },
+    "rewards": {
+      "main": "src/ic_pro_backend/rewards/main.mo",
+      "type": "motoko"
+    },
     "ic_pro_frontend": {
       "dependencies": [
         "ic_pro_backend"
