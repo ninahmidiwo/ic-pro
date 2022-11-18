@@ -1,6 +1,6 @@
 # IC Pro
 
-# NOTE: Repo moved to: https://github.com/ic-pro/ic-pro
+## NOTE: Repo moved to: https://github.com/ic-pro/ic-pro
 
 IC-Pro is a decentralized quiz platform encouraging people to learn about the Internet Computer in a fun yet engaging environment. The apps puts together quizes for users to test their knowledge in the various areas in the IC.
 
